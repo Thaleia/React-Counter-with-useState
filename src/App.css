@@ -1,0 +1,45 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+.counter-box {
+    border: 3px solid violet;
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 50%;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: calc(24px + 2vmin);
+    color: #8ef6e4;
+    text-shadow: 2px 2px 3px blueviolet;
+}
+
+button {
+    font-size: calc(6px + 2vmin);
+    background-color: #8ef6e4;
+    border-radius: 50%;
+    padding: 0.5rem;
+    border-color: transparent;
+    box-shadow: 2px 2px 3px blueviolet;
+    text-shadow: 1px 1px white;
+
+    color: violet;
+    cursor: pointer;
+}
+button:hover {
+    color: blueviolet;
+  }
+  
+  button:active {
+    background: #e9eef3;
+    -webkit-box-shadow: inset 0px 0px 5px violet;
+       -moz-box-shadow: inset 0px 0px 5px violet;
+            box-shadow: inset 0px 0px 5px violet;
+     outline: none;
+  }
